@@ -30,6 +30,43 @@
   		<p>Email <a href="mailto:jake#example.org"> Jake Jones</a> for any information</p>
   	</div>
   </section>
+  <form>
+  	<fieldset>
+  		<legend>Enter Contact Information</legend>
+  		<label>Name:
+  		<input type="text" name="name" size="40"></label>
+  		<label>Phone:
+  		<input type="text" name="phone" size="40"></label>
+  		<label>Email:
+  		<input type="email" name="email" size="40"></label>
+  	</fieldset>
+  	<fieldset>
+  		<legend>Enter Foundation Symptoms</legend>
+  		<p>
+  		  <label for="foundation-symptoms">
+  		  	Select all the symptoms that apply to your problme
+  		  </label>
+  		    <select name="foundation-issues" size="40" multiple="multiple" id="foundation-symptoms">
+  			  <option value="unlevel-doors">Unlevel Door(s)</option>
+  			  <option value="unlevel windows">Unlevel Window(s)</option>
+  			  <option value="cracked-foundation">Cracked Foundation</option>
+  			  <option value="crcked drywall">Cracked Drywall</option>
+  			  <option value="indented roof">Indented Roof</option>
+  			  <option value="gap-at-foundation">Gap at Foundation</option>
+  		    </select>
+  		</p>
+  		<p>
+  			<label for="comments">
+  				Comments:
+  			</label><br />
+  			<textarea rows="7" cols="40" id="comments">
+  				
+  			</textarea>
+  		</p>
+  		<br />
+  		<input type="submit" name="submitted-form" value="Submit Form">
+  	</fieldset>
+  </form>
 
 </body>
 </html>
