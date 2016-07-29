@@ -44,6 +44,18 @@ a:hover {
 }
 
 
+ul .no-text {
+	text-decoration: none;
+}
+
+.page {
+	color: blue;
+}
+
+.page:hover {
+	color: red;
+}
+
 h2 {
 	font-family: "Couier New", Verdana, Arial;
 	font-weight: bold;
