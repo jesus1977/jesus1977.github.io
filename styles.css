@@ -7,13 +7,11 @@ body {
 	line-height: 1.2em;
 }
 #left-pier {
-	display: relative;
 	width: 19%;
 	float: left;
 	margin-right: 140px;
 }
 #heading {
-	display: relative;
 	float: left;
 	width: 38%;
 	margin-right: 10px;
@@ -29,7 +27,22 @@ body {
 }
 h1 {
 	padding-left: 10px;
+	text-shadow: -1px -1px #efefef;
 }
+li {
+	display: inline;
+	margin: 0px 5px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+
+}
+
 
 h2 {
 	font-family: "Couier New", Verdana, Arial;
